@@ -20,7 +20,7 @@
           - git
           - ufw
           - fzf
-        state: latest
+        state: present
         update_cache: true
 
     - name: UFW - Enable and deny by default
