@@ -43,7 +43,6 @@ jobs:
 
       - name: Install test dependencies.
         run: |
-          sudo pip3 install --upgrade pip
           sudo pip3 install ansible
 
       - name: Check syntax.
